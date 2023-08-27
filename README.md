@@ -34,6 +34,3 @@ For calculating the Sum we simply apply a CNOT gate to Q3 (Sum) from all inputs.
 To calculate Cout (Q4) we apply Toffoli gates with Q4 as the target and the input combinations (Q0,Q1), (Q0,Q2), (Q1,Q2) as the control qubits. 
 
 Note: Because of the order of the gates we can never get the Sum and Cout to both equal 1 if only 2 of the inputs are 1. 
-
-
-Images were taken from Qiskit.uk
